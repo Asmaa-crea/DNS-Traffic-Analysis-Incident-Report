@@ -8,7 +8,7 @@ As a Cybersecurity Analyst, I investigated an incident where multiple clients we
 ## 🔍 Part 1: Network Log Analysis Summary
 Below is the captured network log showing the interaction between the analyst's machine and the server:
 
-![Network Log](image_90b920.jpg)
+![Network Log](DUMPTCP.png)
 
 ### Key Observations from the Log:
 * **The UDP protocol reveals that:** The analyzer's browser sent outbound DNS queries from the source IP `192.51.100.15` to the destination DNS server `192.51.100.15` (mapped to `203.0.113.2.domain`) on port 53. The browser requested an **A record** (indicated by `A?`) to resolve the domain name `www.yummyrecipesforme.com`.
